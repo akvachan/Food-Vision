@@ -11,17 +11,12 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 
 ## Results: ##
 
---------------------------------
-| Model | Accuracy | Loss | F1 |
---------------------------------
-| Basic | X | X | X |
-| ResNet | X | X | X |
-| YOLO | X | X | X |
-| Falcon2 | X | X | X |
---------------------------------
-
-Comments: <br>
-... 
+| Model   | Accuracy | Loss | F1 |
+|---------|----------|------|----|
+| Basic   |          |      |    |
+| ResNet  |          |      |    |
+| YOLO    |          |      |    |
+| Falcon2 |          |      |    |
 
 ## Files: ##
 
