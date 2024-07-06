@@ -32,7 +32,7 @@ In case you want to reproduce the results:
 
 Requirements: Python 3.11+, Unix-based OS.
 
-1. `git clone this`
+1. `git clone https://github.com/akvachan/Food-Vision.git`
 2. `cd Food-Vision`
 3. Check Python 3.11+: `python --version`
 4. `pip install -r requirements.txt`
