@@ -1,0 +1,7 @@
+Data
+.venv
+.credentials
+.ipynb_checkpoints
+__pycache__
+
+
