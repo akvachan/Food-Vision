@@ -1,5 +1,7 @@
 # Classification of 101 food classes using ResNet, YOLO and Falcon 2 #
 
+WORK IN PROGRESS
+
 Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs a vision-language model (VLM).
 
 ## Workflow: ##
