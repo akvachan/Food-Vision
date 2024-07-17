@@ -13,6 +13,7 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 
 ## Models ##
 
+`
 Model: "LeNet-5"
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
 ┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
@@ -40,7 +41,7 @@ Model: "LeNet-5"
  Total params: 684,957 (2.61 MB)
  Trainable params: 684,957 (2.61 MB)
  Non-trainable params: 0 (0.00 B)
-
+`
  
 
 ## Results: ##
