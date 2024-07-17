@@ -22,11 +22,11 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 
 ## Files: ##
 
-consts.py -> has all the constants
-utils.py -> helper functions for the project
-requirements.txt -> pip-based dependencies
-Data -> contains the dataset
-Food-Vision.ipynb -> main experimentation Jupyter notebook
+consts.py -> has all the constants <br>
+utils.py -> helper functions for the project <br>
+requirements.txt -> pip-based dependencies <br>
+Data -> contains the dataset <br>
+Food-Vision.ipynb -> main experimentation Jupyter notebook <br>
 
 ## Usage: ##
 
