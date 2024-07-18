@@ -13,7 +13,7 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 
 ## Models ##
 
-# Model: "LeNet-5"
+Model: "LeNet-5"
 
 | Layer (type)            | Output Shape         | Param #    |
 |-------------------------|----------------------|------------|
