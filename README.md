@@ -13,35 +13,7 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 
 ## Models ##
 
-`
-Model: "LeNet-5"
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
-┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
-┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
-│ rescaling (Rescaling)           │ (None, 224, 224, 3)    │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ conv2d (Conv2D)                 │ (None, 220, 220, 6)    │           456 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ average_pooling2d               │ (None, 44, 44, 6)      │             0 │
-│ (AveragePooling2D)              │                        │               │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ conv2d_1 (Conv2D)               │ (None, 40, 40, 16)     │         2,416 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ average_pooling2d_1             │ (None, 8, 8, 16)       │             0 │
-│ (AveragePooling2D)              │                        │               │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ flatten (Flatten)               │ (None, 1024)           │             0 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense (Dense)                   │ (None, 512)            │       524,800 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_1 (Dense)                 │ (None, 256)            │       131,328 │
-├─────────────────────────────────┼────────────────────────┼───────────────┤
-│ dense_2 (Dense)                 │ (None, 101)            │        25,957 │
-└─────────────────────────────────┴────────────────────────┴───────────────┘
- Total params: 684,957 (2.61 MB)
- Trainable params: 684,957 (2.61 MB)
- Non-trainable params: 0 (0.00 B)
-`
+
  
 
 ## Results: ##
@@ -65,15 +37,14 @@ Food-Vision.ipynb -> main experimentation Jupyter notebook <br>
 
 In case you want to reproduce the results:
 
-Requirements: Python 3.11+, Unix-based OS.
+Requirements: Python 3.11+, MacOS/Linux.
 
 1. `git clone https://github.com/akvachan/Food-Vision.git`
 2. `cd Food-Vision`
-3. Check Python 3.11+: `python --version`
-4. `pip install -r requirements.txt`
-5. `jupyter-lab .`
-6. Open "Food-Vision.ipynb" in Jupyter File Browser
-7. Run the notebook
+5. `pip install -r requirements.txt`
+6. `jupyter-lab .`
+7. Open "Food-Vision.ipynb" in Jupyter File Browser
+8. Run the notebook
 
 ## Dataset: food101 ##
 
