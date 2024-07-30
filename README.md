@@ -6,10 +6,9 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 
 ## Workflow: ##
 
-1. A very basic CNN was trained to set a base line
-2. ResNet with ImageNet weights was partially trained via transfer learning by training last 5 layers, while freezing all the layers above.
-3. YOLOv8 model was trained on the dataset
-4. Automatic pipeline was built for Falcon 2 to classify images via zero-shot prompting.
+1. ResNet with ImageNet weights was trained via transfer learning.
+2. YOLOv8 model was trained.
+3. Automatic pipeline was built for Falcon 2 to classify images via zero-shot prompting.
 
 ## Models ##
 
