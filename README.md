@@ -2,7 +2,7 @@
 
 WORK IN PROGRESS
 
-Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs a vision-language model (VLM).
+Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs a vision-language model (VLM) such as Falcon 2.
 
 ## Workflow: ##
 
@@ -16,7 +16,6 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 ### YOLOv8 ###
 ### Falcon 2 ###
  
-
 ## Results: ##
 
 | Model   | Accuracy | Loss | F1 |
@@ -25,26 +24,9 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 | YOLO    |          |      |    |
 | Falcon2 |          |      |    |
 
-## Files: ##
+## Links to notebooks: ##
 
-consts.py -> has all the constants <br>
-utils.py -> helper functions for the project <br>
-requirements.txt -> pip-based dependencies <br>
-Data -> contains the dataset <br>
-Food-Vision.ipynb -> main experimentation Jupyter notebook <br>
 
-## Usage: ##
-
-In case you want to reproduce the results:
-
-Requirements: Python 3.11+, MacOS/Linux.
-
-1. `git clone https://github.com/akvachan/Food-Vision.git`
-2. `cd Food-Vision`
-5. `pip install -r requirements.txt`
-6. `jupyter-lab .`
-7. Open "Food-Vision.ipynb" in Jupyter File Browser
-8. Run the notebook
 
 ## Dataset: food101 ##
 
