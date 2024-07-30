@@ -12,9 +12,9 @@ Main idea and focus was to compare CNN architectures such as ResNet and YOLO vs 
 
 ## Models ##
 
-### Model: "ResNet-5" ### 
-### Model: "YOLOv8" ###
-### Model: "Falcon 2" ###
+### ResNet-50 ### 
+### YOLOv8 ###
+### Falcon 2 ###
  
 
 ## Results: ##
